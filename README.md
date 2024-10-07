@@ -4,14 +4,35 @@ Simple chat app using OpenAI API and OLLAMA.
 
 ## Getting started
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+1. clone the project from 'https://gitlab.tmrnd.com.my/Project-Sandbox/langchain/simplechat.git'
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+2. create and set the .env
+   OPENAI_API_KEY="sk-***"
+   LANGCHAIN_API_KEY ="lsv2_***"
+   LANGCHAIN_PROJECT ="Project1"
 
-## Add your files
+3. set the venv for the porject. Python environment
+   % python -m venv venv
+
+4. install the dependencies within the venv
+   % pip install -r requirements.txt
+
+5. run the application 
+   % streamlit run app.py
+
+6. Check the langsmith (LLMOps)
+   https://smith.langchain.com/
+
+## Push to master
 ```
-cd existing_repo
-git remote add origin https://gitlab.tmrnd.com.my/Project-Sandbox/langchain/simplechat.git
+%git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://gitlab.tmrnd.com.my/Project-Sandbox/langchain/simplechat.git'
+
+To fix it
+git add .
+git commit -m "message"
+git remote add origin https://gitlab.com/*******.git
 git branch -M main
 git push -uf origin main
 ```
@@ -19,5 +40,10 @@ git push -uf origin main
 ## License
 For open source projects, say how it is licensed.
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+## Dependency
+```
+% pip freeze > requirements.txt
+
+% pip install -r requirements.txt
+
+```

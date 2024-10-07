@@ -1,12 +1,12 @@
 
 #langchain dependencies
-from langchain_openai import ChatOpenAI
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser
+from langchain_openai import ChatOpenAI    # LLM Model
+from langchain_core.prompts import ChatPromptTemplate # Prompt Input
+from langchain_core.output_parsers import StrOutputParser # Output Display
 
 
 # interface
-import streamlit as st
+import streamlit as st  # User Interface
 
 #environment variables
 import os 
