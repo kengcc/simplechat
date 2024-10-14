@@ -25,12 +25,17 @@ Simple chat app using OpenAI API and OLLAMA.
    % pip install -r requirements.txt
 ```
 
-5. run the application 
+5. run ollama
+```
+% ollama run gemma2:2b
+```
+
+6. run the application 
 ```
    % streamlit run app.py
 ```
 
-6. Check the langsmith (LLMOps)
+7. Check the langsmith (LLMOps)
 ```
    https://smith.langchain.com/
 ```
@@ -52,10 +57,3 @@ git push -uf origin main
 ## License
 For open source projects, say how it is licensed.
 
-## Dependency
-```
-% pip freeze > requirements.txt
-
-% pip install -r requirements.txt
-
-```
