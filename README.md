@@ -40,20 +40,6 @@ Simple chat app using OpenAI API and OLLAMA.
    https://smith.langchain.com/
 ```
 
-## Push to master
-```
-%git push -u origin master
-error: src refspec master does not match any
-error: failed to push some refs to 'https://gitlab.tmrnd.com.my/Project-Sandbox/langchain/simplechat.git'
-
-To fix it
-git add .
-git commit -m "message"
-git remote add origin https://gitlab.com/*******.git
-git branch -M main
-git push -uf origin main
-```
-
 ## License
 For open source projects, say how it is licensed.
 
