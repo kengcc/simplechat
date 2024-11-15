@@ -6,7 +6,7 @@ Simple chat app using OpenAI API and OLLAMA.
 
 1. clone the project from 
 ```
-'https://gitlab.tmrnd.com.my/Project-Sandbox/langchain/simplechat.git'
+'...'
 ```
 
 2. create and set the .env
