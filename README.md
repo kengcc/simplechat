@@ -4,10 +4,7 @@ Simple chat app using OpenAI API and OLLAMA.
 
 ## Getting started
 
-1. clone the project from 
-```
-'...'
-```
+1. clone the project from here
 
 2. create and set the .env
 ```
@@ -18,6 +15,8 @@ Simple chat app using OpenAI API and OLLAMA.
 3. set the venv for the porject. Python environment
 ```
    % python -m venv venv
+   Mac/Linux: % source venv/bin/activate
+   Windows: .\venv\Scripts\activate
 ```
 
 4. install the dependencies within the venv
