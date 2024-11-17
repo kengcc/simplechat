@@ -39,6 +39,8 @@ Simple chat app using OpenAI API and OLLAMA.
    https://smith.langchain.com/
 ```
 
+8. Run "deactivate" to exit venv environment
+
 ## License
 For open source projects, say how it is licensed.
 
